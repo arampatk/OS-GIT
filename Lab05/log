@@ -1,0 +1,35 @@
+/home/arampatk/Lab05
+example1.c
+example2.c
+example3.c
+example4.c
+example5.c
+example6.c
+log
+-bash: cd: home/arampatk: No such file or directory
+stat: cannot stat 'filename': No such file or directory
+  File: new_folder
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 811h/2065d	Inode: 410700      Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1324/arampatk)   Gid: ( 1326/arampatk)
+Access: 2024-12-19 12:58:59.130786834 +0200
+Modify: 2024-12-19 12:58:59.130786834 +0200
+Change: 2024-12-19 12:58:59.130786834 +0200
+ Birth: -
+cp: cannot stat 'source.txt': No such file or directory
+my: command not found
+mv: cannot stat 'oldname.txt': No such file or directory
+rm: cannot remove 'file_to_delete.txt': No such file or directory
+rmdir: failed to remove 'empty_directory': No such file or directory
+rm: cannot remove 'directory_to_delete': No such file or directory
+cat: file.txt: No such file or directory
+file.txt: No such file or directory
+head: cannot open 'file.txt' for reading: No such file or directory
+tail: cannot open 'file.txt' for reading: No such file or directory
+
+
+cat log
+tar: directory: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+tar: directory: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
